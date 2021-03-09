@@ -6,7 +6,10 @@ now we can start the installation by executing the script setup
 
 The Installation will ask for a Settings URL you have some choices here 
 1. You can use the default configuration by just pressing return
-   `"\r"`{{execute}}
+   `'\r'`{{execute}}
+
+   ``{{execute no-newline}}
+   
 2. You can download a URL and specify it so the Installation takes your Settings
 3. Take given Settings from this URL : 
 

@@ -12,7 +12,7 @@ and create a new Folder here
 
 `mkdir my-project`{{execute}}
 
-cd my-project
+`cd my-project`{{execute}}
 
 now we have our folderstructure ready and we need to install git for downloading the devonfw
 this can be done on Ubuntu systems with the command 
