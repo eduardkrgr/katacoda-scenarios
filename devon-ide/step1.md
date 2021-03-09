@@ -14,8 +14,9 @@ and create a new Folder here
 
 `cd my-project`{{execute}}
 
-now we have our folderstructure ready and we need to install git for downloading the devonfw
-this can be done on Ubuntu systems with the command 
-`sudo apt-get install git curl` (schon installiert) 
+now we have our folderstructure ready and we need if you dont have git installed already you have to do it with
+
+`sudo apt-get install git curl`{{execute}}
+ (schon installiert) 
 
 Now we have done all preparation
