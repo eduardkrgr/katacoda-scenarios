@@ -3,15 +3,15 @@
 Die Installation kann konfiguriert dafür brauchen wir einmal die Settings Ordnerstruktur von diesem Repo
 
 also erstellen wir einen ordner
-`mkdir settings`{{execute}}
+`mkdir mysettings`{{execute}}
 
 after that
-`cd settings`{{execute}}
+`cd mysettings`{{execute}}
 
-`wget https://github.com/devonfw/ide-settings/archive/master.zip`{{execute}}
+`wget -c https://github.com/devonfw/ide-settings/archive/master.zip`{{execute}}
 
 
-`tar -x -f master.zip`{{execute}}
+`unzip master.zip -d | pwd`{{execute}}
 
 und das archiv wird nicht mehr benötigt und gelöscht
 
