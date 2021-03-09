@@ -11,7 +11,7 @@ after that
 `wget -c https://github.com/devonfw/ide-settings/archive/master.zip`{{execute}}
 
 
-`unzip master.zip -d | pwd`{{execute}}
+`unzip master.zip`{{execute}}
 
 und das archiv wird nicht mehr benötigt und gelöscht
 
