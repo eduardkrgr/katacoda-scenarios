@@ -8,10 +8,10 @@ The Installation will ask for a Settings URL you have some choices here
 1. You can use the default configuration by just pressing return
    `^\n\r`{{execute ctrl-seq}}
 
-   `^\r`{{execute ctrl-seq}}
+   `:\r!`{{execute ctrl-seq}}
+   `:\r!`{{execute}}
 
-   ` `{{execute no-newline}}
-   ` `{{execute no-newline}}
+   `^ESC`{{execute ctrl-seq}}
 
    `^return`{{execute no-newline}}
 
