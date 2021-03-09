@@ -4,13 +4,15 @@ Die Installation kann konfiguriert dafür brauchen wir einmal die Settings Ordne
 
 also erstellen wir einen ordner
 `mkdir settings`{{execute}}
+
+after that
 `cd settings`{{execute}}
-`git pull https://github.com/devonfw/ide-settings.git`{{execute}}
-`wget https://github.com/devonfw/ide-settings.git`{{execute}}
+
+`wget https://github.com/devonfw/ide-settings/archive/master.zip`{{execute}}
 
 
-`tar -x -f ide-settings`{{execute}}
+`tar -x -f master.zip`{{execute}}
 
 und das archiv wird nicht mehr benötigt und gelöscht
 
-`rm -f ide-settings`{{execute}}
+`rm -f ide-master.zip`{{execute}}
