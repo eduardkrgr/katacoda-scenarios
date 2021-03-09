@@ -21,6 +21,21 @@
         "title": "Step 4",
         "text": "step4.md"
       }
+      ,
+      {
+        "title": "Step 5",
+        "text": "step4.md"
+      }
+      ,
+      {
+        "title": "Step 6",
+        "text": "step4.md"
+      }
+      ,
+      {
+        "title": "Step 7",
+        "text": "step4.md"
+      }
       ],
       "intro": {
         "text": "intro.md"
@@ -30,8 +45,7 @@
       }
     },
     "environment": {
-      "uilayout": "terminal",
-      "showide": true
+      "uilayout": "vscode-terminal-split"
     },
     "backend": {
       "imageid": "ubuntu1804"
