@@ -13,6 +13,6 @@ after that
 
 `unzip master.zip`{{execute}}
 
-und das archiv wird nicht mehr benötigt und gelöscht
+und das archiv wird nicht mehr benötigt und gelöscht wird
 
 `rm -f ide-master.zip`{{execute}}
