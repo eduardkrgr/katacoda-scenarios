@@ -16,7 +16,11 @@
         {
           "title": "Step 3",
           "text": "step3.md"
-        }
+        },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      }
       ],
       "intro": {
         "text": "intro.md"
@@ -27,7 +31,7 @@
     },
     "environment": {
       "uilayout": "terminal",
-      "showide": false
+      "showide": true
     },
     "backend": {
       "imageid": "ubuntu1804"

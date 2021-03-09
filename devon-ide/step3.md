@@ -1,15 +1,16 @@
-## Starting the Installation
+## Download der Settings Files
 
-now we can start the installation by executing the script setup 
+Die Installation kann konfiguriert dafür brauchen wir einmal die Settings Ordnerstruktur von diesem Repo
 
-`./setup`{{execute}}
+also erstellen wir einen ordner
+`mkdir settings`{{execute}}
+`cd settings`{{execute}}
+`git pull https://github.com/devonfw/ide-settings.git`{{execute}}
+`wget https://github.com/devonfw/ide-settings.git`{{execute}}
 
-The Installation will ask for a Settings URL you have some choices here 
-1. You can use the default configuration by just pressing return 
-   (Hier habe ich bisher keine Lösung für ein return press command)
-2. You can download a setting file and specify it so the Installation takes your Settings
-3. Take given Settings from this URL: 
-   `https://github.com/devonfw/ide-settings`{{execute}} 
 
-now you can accept the Terms and the installation will start
-`yes`{{execute}}
+`tar -x -f ide-settings`{{execute}}
+
+und das archiv wird nicht mehr benötigt und gelöscht
+
+`rm -f ide-settings`{{execute}}
