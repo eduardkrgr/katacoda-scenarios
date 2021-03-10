@@ -3,8 +3,7 @@
 We try to make it as simple as possible for you. However, there are some minimal prerequisites:
 
 On Linux you might need to install the above tools in case they are not present
-`sudo apt-get install git curl`{{execute}} \n
-in this Case we have them already installes.
+`sudo apt-get install git curl`{{execute}}
 
 First we wanna create a central folder and jump into it.
 `mkdir projects`{{execute}}
