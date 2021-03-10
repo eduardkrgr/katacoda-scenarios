@@ -4,3 +4,6 @@ The devonfw-ide is designed to be non-invasive to your operating system and comp
 
 so the only thing we have to do is
 `devon ide uninstall`{{execute}}
+
+and you can remove the Files for removing everything completly 
+`rm -f projects`{{execute}}

@@ -1,11 +1,16 @@
 ### Configurieren der IDE
 
-Nehmen wir mal an wir haben jetzt zwei JDK installiert und wollen festlegen welche von der IDE benutzt werden soll können wir das 
-ganz leicht über dependecies in den settings machen.
+Devon installed to use commands new terminal
+ so we start a new Terminal 
+ `echo "new Terminak"`{{execute T2}}
 
-Wir installieren erstmal eine zweite jdks
+Neuer Ordner SOftware mit zwei unterordner java und mvn sollte exestieren
 
-Erst einmal die OpenJDK 8
-`sudo apt-get install openjdk-8-jdk`{{execute}}
+jetzt noch einmal devon die Path setzten lassen mit 
+
+`devon`{execute T2}
+
+
+
 
 
