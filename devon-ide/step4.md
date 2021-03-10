@@ -2,15 +2,20 @@
 
 now we can start the installation by executing the script setup 
 change directory 
+`wget -c https://github.com/devonfw/ide-settings/archive/master.zip -O settings.zip`{{execute}}
+
+`unzip settings.zip`{{execute}}
+
+`mv ide-settings-master settings`{{execute}}
+
+<pre class="file" data-filename="devon.properties" data-target="append">DEVON_IDE_TOOLS= java mvn
+</pre>
 
 `./setup`{{execute}}
 
-The Installation will ask for a Settings URL you have some choices here 
-1. You can use the default configuration by just pressing return 
-   `\n`{{execute}}
-   (Hier habe ich bisher keine Lösung für ein return press command)
-2. We have downloaded Settings files and wanna specify em so we take our directory: 
-   `https://github.com/devonfw/ide-settings/archive/master.zip`{{execute}} 
+If you dont loaded the settings and changes a variable like above The Installation will ask for a Settings URL you can 
+1. Just press return and the installation takes the default settings
+2. Pass a URL with your desired settings 
 
 
 now you can accept the Terms and the installation will start
