@@ -4,8 +4,10 @@ now we can start the installation by executing the script setup
 change directory 
 `git clone https://github.com/devonfw/ide-settings.git`{{execute}}
 
+Now Switch to VS Code tab and u can open this
 `projects/my-project/settings/devon.properties`{{open}}
 
+we are adding a Field to the properties file and configure with tools we wanna install. We are skipping some Tools and just install Java and Maven the default setting ist Java, Maven, Eclipse,  VSCode, Node.js, npm, angular-cli and  ionic-cli.
 <pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="append">DEVON_IDE_TOOLS=(java mvn)
 </pre>
 
