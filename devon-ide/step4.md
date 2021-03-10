@@ -6,7 +6,7 @@ change directory
 
 `projects/my-project/settings/devon.properties`{{open}}
 
-<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="append">DEVON_IDE_TOOLS= java mvn
+<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="append">DEVON_IDE_TOOLS=(java mvn)
 </pre>
 
 `./setup`{{execute}}
