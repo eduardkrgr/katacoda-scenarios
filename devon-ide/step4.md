@@ -8,7 +8,7 @@ change directory
 
 `mv ide-settings-master settings`{{execute}}
 
-`/projects/my-project/settings/devon.properties`{{open}}
+`/root/projects/my-project/settings/devon.properties`{{open}}
 
 <pre class="file" data-filename="devon.properties" data-target="append">DEVON_IDE_TOOLS= java mvn
 </pre>
