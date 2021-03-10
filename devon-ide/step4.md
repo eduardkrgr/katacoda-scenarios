@@ -2,11 +2,7 @@
 
 now we can start the installation by executing the script setup 
 change directory 
-`wget -c https://github.com/devonfw/ide-settings/archive/master.zip -O settings.zip`{{execute}}
-
-`unzip settings.zip`{{execute}}
-
-`mv ide-settings-master settings`{{execute}}
+`git clone https://github.com/devonfw/ide-settings.git`{{execute}}
 
 `projects/my-project/settings/devon.properties`{{open}}
 
