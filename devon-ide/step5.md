@@ -21,14 +21,14 @@ Now we need a additional tool node.js and want to update our IDE.
 So we have to update our enviroment Variable and open the devon.properties again.
 `projects/my-project/settings/devon.properties`{{open}}
 and we insert the tool we need
-<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="append">DEVON_IDE_TOOLS=(java mvn node)
+<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="insert"  data-marker="DEVON_IDE_TOOLS=(java mvn)">DEVON_IDE_TOOLS=(java mvn node)
 </pre>
 
 for devon to install the tool you just have to execute
 `devon ide update`{{execute}}
 and the tool will be installed
 
-`node -v`
+`npm config get prefix`
 
 
 
