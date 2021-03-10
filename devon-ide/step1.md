@@ -1,22 +1,19 @@
-## devonfw IDE setup preparation
+## devonfw-ide setup preparation
 
-First we wanna create a Folder for the Installation and our Projects
+We try to make it as simple as possible for you. However, there are some minimal prerequisites:
 
+On Linux you might need to install the above tools in case they are not present
+`sudo apt-get install git curl`{{execute}}
+in this Case we have them already installes.
+
+First we wanna create a central folder and jump into it.
 `mkdir projects`{{execute}}
-
-we need a a sub folder for the installation of devonfw-ide so we step into the above created folder
 
 `cd projects`{{execute}}
 
-and create a new Folder here
-
+Inside this folder, we create a sub-folder for our new project
 `mkdir my-project`{{execute}}
 
 `cd my-project`{{execute}}
 
-now we have our folderstructure ready and we need if you dont have git installed already you have to do it with
-
-`sudo apt-get install git curl`{{execute}}
- (schon installiert) 
-
-Now we have done all preparation
+now we have our folderstructure ready and can start to download the installationfiles

@@ -1,14 +1,11 @@
-## Devonfw IDE Download
-Now we can download and install the devonfw-ide 
-so we need do download the installation files with the command
+## devonfw-ide download
+Now we can download and install the devonfw-ide. 
 
-`wget -c "https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.devonfw.tools.ide&a=devonfw-ide-scripts&v=LATEST&p=tar.gz" -O devonfw-ide-`{{execute}}
+First we get the latest release of devonfw-ide 
+`wget -c "https://bit.ly/3vaomuO" -O devonfw-ide`{{execute}}
+and unpack it.
+`tar -x -f devonfw-ide`{{execute}}
 
-diese Datei muss noch entpackt werden 
-
-`tar -x -f devonfw-ide-`{{execute}}
-
-und das archiv wird nicht mehr benötigt und gelöscht
-
-`rm -f devonfw-ide-`{{execute}}
+we dont need the archive file anymore so we delete it.
+`rm -f devonfw-ide`{{execute}}
 

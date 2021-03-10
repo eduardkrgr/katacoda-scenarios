@@ -1,29 +1,34 @@
-### Configurieren der IDE
+### Setup of the ide
 
-Devon installed to use commands new terminal
- so we start a new Terminal 
- `echo "new Terminal"`{{execute T2}}
-
-Neuer Ordner SOftware mit zwei unterordner java und mvn sollte exestieren
+We have devonfw-ide installed, to use the devon commands we need to start a new terminal
+`echo "new Terminal"`{{execute T2}}
 
 
-
-jetzt noch einmal devon die Path setzten lassen mit 
+Without any argument the devon command will determine your DEVON_IDE_HOME and setup your environment variables automatically. In case you are not inside of a devonfw-ide folder the command will echo a message and do nothing.
 
 `devon`{{execute T2}}
 
-er sagt er ist nicht im Richtigen Install Ordner also wechseln zu 
 
+We are switching to the devon IDE installation folder and let the setup set the enviroment variables.
 `cd projects/my-project`{{execute T2}}
 
-and let him set the PATH Variables
-
 `devon`{{execute T2}}
 
-we can check this with 
-
+We can confirm the effects of the command by using mavens version display what also shows the PATH of JAVA and Maven.
 `mvn -v`{{execute T2}}
 
+Now we need a additional tool node.js and want to update our IDE.
+So we have to update our enviroment Variable and open the devon.properties again.
+`projects/my-project/settings/devon.properties`{{open}}
+and we insert the tool we need
+<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="append">DEVON_IDE_TOOLS=(java mvn node)
+</pre>
+
+for devon to install the tool you just have to execute
+`devon ide update`{{execute}}
+and the tool will be installed
+
+`node -v`
 
 
 

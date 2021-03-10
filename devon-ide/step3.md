@@ -1,6 +1,7 @@
-## Download der Settings Files
+## download of settings files
+You can easily customize and configure devonfw-ide for the requirements of your project. In order to do so, you need to create your own project-specific settings git repository and provide the URL to all developers for the setup.
 
-Die Installation kann konfiguriert dafür brauchen wir einmal die Settings Ordnerstruktur von diesem Repo
+You can 
 
 also erstellen wir einen ordner
 `mkdir mysettings`{{execute}}
