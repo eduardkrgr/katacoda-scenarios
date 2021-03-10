@@ -17,7 +17,9 @@ We are switching to the devon IDE installation folder and let the setup set the 
 We can confirm the effects of the command by using mavens version display what also shows the PATH of JAVA and Maven.
 `mvn -v`{{execute T2}}
 
-Now we need a additional tool node.js and want to update our IDE.
+Now we need a additional tool node.js and want to update our IDE. Check if tool already is installed
+`node -v`{{execute T2}}
+
 So we have to update our enviroment Variable and open the devon.properties again.
 `projects/my-project/settings/devon.properties`{{open}}
 and we insert the tool we need
@@ -25,10 +27,10 @@ and we insert the tool we need
 </pre>
 
 for devon to install the tool you just have to execute
-`devon ide update`{{execute}}
-and the tool will be installed
+`devon ide update`{{execute T2}}
+the tool will be installed and we verify it with 
+`node -v` 
 
-`npm config get prefix`
 
 
 
