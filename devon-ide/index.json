@@ -41,8 +41,9 @@
       }
     },
     "environment": {
-      "uilayout": "vscode-terminal-split"
-  },
+      "uilayout": "terminal",
+      "showide": true
+    },
     "backend": {
       "imageid": "ubuntu1804"
     }
