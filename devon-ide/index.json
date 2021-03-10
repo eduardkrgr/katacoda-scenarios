@@ -41,11 +41,8 @@
       }
     },
     "environment": {
-      "uieditorpath": "/root",
-      "showide": true,
-      "idePort": 23000,
-      "uilayout": "terminal"
-  },
+      "showide": true
+    },
     "backend": {
       "imageid": "ubuntu2004"
     }
