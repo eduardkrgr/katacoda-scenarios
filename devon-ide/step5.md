@@ -1,7 +1,7 @@
 ### Setup of the ide
 
 We have devonfw-ide installed, to use the devon commands we need to start a new terminal
-`echo "new Terminal"`{{execute T2}}
+`. ~/.bashrc{{execute T1}}`{{execute T2}}
 
 
 Without any argument the devon command will determine your DEVON_IDE_HOME and setup your environment variables automatically. In case you are not inside of a devonfw-ide folder the command will echo a message and do nothing.
