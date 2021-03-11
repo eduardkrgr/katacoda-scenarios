@@ -30,7 +30,7 @@
       ],
       "intro": {
         "text": "intro.md",
-        "code": "setup.sh"
+        "CourseData": "setup.sh"
         }
       },
     "files": [],  
