@@ -2,7 +2,7 @@
 
 echo "Starting script"
 
-sudo apt-get remove git curl
-sudo apt-get remove node
+sudo apt-get remove --yes git curl
+sudo apt-get remove --yes node
 
 echo "Finished"
