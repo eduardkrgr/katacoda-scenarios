@@ -1,7 +1,7 @@
 #!/bin/sh
 
-
 echo "Wait For Setup"; 
-while [ ! -f /opt/.backgroundfinished ] ;do sleep 2; done; 
+
+while [ ! -f /home/finishedscript ] ;do sleep 2; done; 
  
 echo "Done"
