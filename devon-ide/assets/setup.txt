@@ -1,0 +1,5 @@
+1
+
+Delete Node from Ubuntu
+deleteNode.sh
+##########
