@@ -39,7 +39,7 @@
             "target":"/root/setup"
           },
           {
-            "file":"setup/cloneDevonfwIdeSettings.sh",
+            "file":"setup/deleteNode.sh",
             "target":"/root/setup"
             },
             {
@@ -56,4 +56,6 @@
       "imageid": "ubuntu1804"
     }
   }
+
+
 
