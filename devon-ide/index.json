@@ -35,15 +35,15 @@
         },
         "assets":{
         "client":[{
-            "file":"setup/setup.txt",
+            "file":"setup.txt",
             "target":"/root/setup"
           },
           {
-            "file":"setup/cloneDevonfwIdeSettings.sh",
+            "file":"cloneDevonfwIdeSettings.sh",
             "target":"/root/setup"
             },
             {
-              "file":"setup/setup.sh",
+              "file":"setup.sh",
               "target":"/root/setup"
               }
               ]
