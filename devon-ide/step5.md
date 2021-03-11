@@ -1,7 +1,7 @@
 ### Setup of the ide
 
 We have devonfw-ide installed, to use the devon commands we need to start a new terminal
-`. ~/.bashrc{{execute T1}}`{{execute T2}}
+`. ~/.bashrc`{{execute T1}}
 
 
 Without any argument the devon command will determine your DEVON_IDE_HOME and setup your environment variables automatically. In case you are not inside of a devonfw-ide folder the command will echo a message and do nothing.
@@ -28,8 +28,12 @@ and we insert the tool we need
 
 for devon to install the tool you just have to execute
 `devon ide update`{{execute T2}}
+
+now let devon set the PATH variables for node with
+`devon`{{execute T2}}
+
 the tool will be installed and we verify it with 
-`node -v` 
+`node -v`{{execute}} 
 
 
 
