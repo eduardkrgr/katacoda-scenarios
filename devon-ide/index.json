@@ -29,15 +29,11 @@
       }
       ],
       "intro": {
-        "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "setup.sh"
       },
       "finish": {
         "text": "finish.md"
-      },
-      "assets": {
-        "client":[ {
-          "file":"setup/setup.txt","target":"/root/setup"},
-        {"file":"setup/setup.sh","target":"/root/setup"}]}
     },
     "environment": {
       "uilayout": "vscode-terminal-split"

@@ -1,6 +1,0 @@
-  
-1
-
-Delete some packages
-setup.sh
-##########
