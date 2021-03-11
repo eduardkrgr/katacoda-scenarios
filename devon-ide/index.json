@@ -35,15 +35,15 @@
         },
         "assets":{
         "client":[{
-            "file":"setup.txt",
+            "file":"setup/setup.txt",
             "target":"/root/setup"
           },
           {
-            "file":"cloneDevonfwIdeSettings.sh",
+            "file":"setup/cloneDevonfwIdeSettings.sh",
             "target":"/root/setup"
             },
             {
-              "file":"setup.sh",
+              "file":"setup/setup.sh",
               "target":"/root/setup"
               }
               ]
@@ -56,3 +56,4 @@
       "imageid": "ubuntu1804"
     }
   }
+
