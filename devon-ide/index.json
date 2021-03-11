@@ -30,9 +30,10 @@
       ],
       "intro": {
         "text": "intro.md",
-        "courseData": "setup.sh"
+        "code": "setup.sh"
         }
       },
+    "files": [],  
     "environment": {
       "uilayout": "vscode-terminal-split"
     },
