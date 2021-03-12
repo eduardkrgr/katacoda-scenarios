@@ -7,13 +7,12 @@ Without any argument the devon command will determine your DEVON_IDE_HOME and se
 `devon`{{execute T2}}
 
 
-We are switching to the devon IDE installation folder and let the setup set the enviroment variables.
+We are switching to the devon IDE installation folder and 
 `cd projects/my-project`{{execute T2}}
 
-`devon`{{execute T2}}
+let the Devon set the enviroment variables and conform the effect of the of the command by using mavens version display what also shows the PATH of JAVA and Maven.
+`devon mvn -v`{{execute T2}}
 
-We can confirm the effects of the command by using mavens version display what also shows the PATH of JAVA and Maven.
-`mvn -v`{{execute T2}}
 
 Now we need a additional tool node.js and want to update our IDE. Check if tool already is installed
 `node -v`{{execute T2}}
@@ -27,11 +26,9 @@ and we insert the tool we need
 for devon to install the tool you just have to execute
 `devon ide update`{{execute T2}}
 
-now let devon set the PATH variables for node with
-`devon`{{execute T2}}
+now let devon set the PATH variables for node and verify the installation with
+`devon node -v`{{execute T2}}
 
-the tool will be installed and we verify it with 
-`node -v`{{execute}} 
 
 
 
