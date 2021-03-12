@@ -5,8 +5,5 @@ The devonfw-ide is designed to be non-invasive to your operating system and comp
 so the only thing we have to do is
 `devon ide uninstall`{{execute T2}}
 
-Now we can recheck the PATH of the JAVA and Maven installation and it should be in the devon ide folder
-`mvn -v`{{execute}}
-
 and you can remove the Folder for removing everything completly 
 `rm -f projects`{{execute T2}}
