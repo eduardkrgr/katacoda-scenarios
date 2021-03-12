@@ -15,7 +15,7 @@ Now we geht the above defined path with
 `echo $JAVA_HOME`{{execute T2}}
 
 and you can delete the field again
-<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="insert"  data-marker="export JAVA_HOME= /usr/lib/jvm/java-11-openjdk-amd64/bin">" "
+<pre class="file" data-filename="projects/my-project/settings/devon.properties" data-target="insert"  data-marker="export JAVA_HOME= /usr/lib/jvm/java-11-openjdk-amd64/bin">  
 </pre>
 
 and call this command to set it back to installation default
