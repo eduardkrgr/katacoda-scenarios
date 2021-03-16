@@ -3,5 +3,5 @@ To use the cobigen cli you first have to install the devonfw ide. You will find 
 
  Run node with this bash-command. 
 
-`node -v`{{execute T1 }}
+`node -v -h --help --a`{{execute T1 }}
 
