@@ -1,7 +1,7 @@
 {
   "title": "ExecuteFiles",
   "difficulty": "Beginner",
-  "time": "15 Minutes",
+  "time": "20 Minutes",
   "details": {
     "steps": [
       {
@@ -11,6 +11,10 @@
       {
         "title": "Execute bash script.sh",
         "text": "step2.md"
+      },
+      {
+        "title": "Execute bash setup.sh",
+        "text": "step3.md"
       }
     ],
     "intro": {

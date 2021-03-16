@@ -1,7 +1,7 @@
 To use the cobigen cli you first have to install the devonfw ide. You will find more information about devonfw on https://devonfw.com/website/pages/welcome/welcome.html.
 
 
- Run node with this bash-command. 
+ Run bash \root/setup.sh with this bash-command. 
 
-`node -v`{{execute T1 }}
+`bash \root/setup.sh `{{execute T1 }}
 
