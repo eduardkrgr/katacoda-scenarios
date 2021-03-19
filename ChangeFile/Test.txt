@@ -1,5 +1,0 @@
-1
-
-Install CobiGen plugin
-installCobiGenPlugin.sh
-##########
