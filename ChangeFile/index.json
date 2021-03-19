@@ -6,8 +6,7 @@
     "steps": [
       {
         "title": "CobiGen Java",
-        "text": "step1.md",
-        "courseData": ""
+        "text": "step1.md"
       },
       {
         "title": "Change Test.txt",
