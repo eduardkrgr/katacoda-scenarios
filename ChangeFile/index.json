@@ -11,7 +11,7 @@
       {
         "title": "Change setup.txt",
         "text": "step2.md",
-        "courseData": "insert.sh"
+        "courseData": "setup/insert.sh"
       }
     ],
     "intro": {
@@ -34,6 +34,10 @@
         },
         {
           "file": "setup/installCobiGenPlugin.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
           "target": "/root/setup"
         }
       ]
