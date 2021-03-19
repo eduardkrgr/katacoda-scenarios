@@ -6,12 +6,13 @@
     "steps": [
       {
         "title": "CobiGen Java",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": ""
       },
       {
-        "title": "Change Test.txt",
+        "title": "Change setup.txt",
         "text": "step2.md",
-        "courdeData": "setup/insert.sh"
+        "courseData": "setup/insert.sh"
       }
     ],
     "intro": {
@@ -24,10 +25,6 @@
     },
     "assets": {
       "client": [
-        {
-          "file": "setup/setup.txt",
-          "target": "/root/setup"
-        },
         {
           "file": "setup/setup.txt",
           "target": "/root/setup"
