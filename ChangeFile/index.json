@@ -35,10 +35,6 @@
         {
           "file": "setup/installCobiGenPlugin.sh",
           "target": "/root/setup"
-        },
-        {
-          "file": "setup/setup.sh",
-          "target": "/root/setup"
         }
       ]
     }
