@@ -10,7 +10,8 @@
       },
       {
         "title": "Change Test.txt",
-        "text": "step2.md"
+        "text": "step2.md",
+        "courdeData": "setup/insert.sh"
       }
     ],
     "intro": {
