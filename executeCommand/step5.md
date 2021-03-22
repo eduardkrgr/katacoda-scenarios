@@ -3,7 +3,7 @@ To use the cobigen cli you first have to install the devonfw ide. You will find 
 
 
 
-Run bash script.sh with this bash-command. 
+ bash script.sh is already running in terminal 2. Rerun the command to stop and relaunch it automatically. 
 
-`bash script.sh -v`{{execute T1 }}
+`bash script.sh `{{execute T2 interrupt}}
 

@@ -1,24 +1,28 @@
 {
   "title": "ExecuteFiles",
   "difficulty": "Beginner",
-  "time": "25 Minutes",
+  "time": "30 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Execute node",
+        "title": "ExecuteCommand node",
         "text": "step1.md"
       },
       {
-        "title": "Execute bash script.sh",
+        "title": "ExecuteCommand bash script.sh",
         "text": "step2.md"
       },
       {
-        "title": "Execute bash setup.sh",
+        "title": "ExecuteCommand bash script.sh",
         "text": "step3.md"
       },
       {
-        "title": "Execute bash setup.sh",
+        "title": "ExecuteCommand bash script.sh",
         "text": "step4.md"
+      },
+      {
+        "title": "ExecuteCommand bash script.sh",
+        "text": "step5.md"
       }
     ],
     "intro": {
