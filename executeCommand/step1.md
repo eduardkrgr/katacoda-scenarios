@@ -2,7 +2,7 @@ To use the cobigen cli you first have to install the devonfw ide. You will find 
 
 
 Change Directory
-`cd setup/setup/setup/ `{{execute T2 } 
+`cd setup/setup/setup/ `{{execute T2 }} 
 
 Run node with this bash-command. 
 
