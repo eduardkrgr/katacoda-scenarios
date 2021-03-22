@@ -11,7 +11,7 @@
       {
         "title": "Change Test.txt",
         "text": "step2.md",
-        "code": "insert.sh"
+        "courseData": "insert.sh"
       }
     ],
     "intro": {
