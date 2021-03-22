@@ -1,17 +1,17 @@
 {
-  "title": "Insert at Line",
+  "title": "ExecuteFiles",
   "difficulty": "Beginner",
-  "time": "5 Minutes",
+  "time": "10 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Change Test.txt",
+        "title": "Create a new file",
         "text": "step1.md"
       },
       {
-        "title": "ChangeTest.txt",
+        "title": "Change Test.txt",
         "text": "step2.md",
-        "code": "insert.sh"
+        "courseData": "insert.sh"
       }
     ],
     "intro": {

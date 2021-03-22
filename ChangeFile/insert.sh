@@ -1,3 +1,3 @@
 #!/bin/sh 
- echo 'Hallo wie gehts' 
- sed '3i###1234###' Test.txt -i
+  
+ sed '3i!##!' path test/test/test/Test.txt -i
