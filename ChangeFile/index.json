@@ -1,5 +1,5 @@
 {
-  "title": "ExecuteFiles",
+  "title": "Insert at Line",
   "difficulty": "Beginner",
   "time": "5 Minutes",
   "details": {
@@ -7,7 +7,7 @@
       {
         "title": "Change Test.txt",
         "text": "step1.md",
-        "courseData": "insert.sh"
+        "courseData": "setup/insert.sh"
       }
     ],
     "intro": {
