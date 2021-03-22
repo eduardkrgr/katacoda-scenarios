@@ -7,7 +7,7 @@
       {
         "title": "Change Test.txt",
         "text": "step1.md",
-        "courseData": "/root/setup/insert.sh"
+        "courseData": "insert.sh"
       }
     ],
     "intro": {
