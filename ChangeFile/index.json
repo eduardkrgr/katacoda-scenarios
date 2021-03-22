@@ -31,10 +31,6 @@
         {
           "file": "setup/setup.sh",
           "target": "/root/setup"
-        },
-        {
-          "file": "setup/insert.sh",
-          "target": "/root/setup"
         }
       ]
     }
