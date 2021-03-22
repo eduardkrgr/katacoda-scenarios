@@ -1,16 +1,12 @@
 {
   "title": "ExecuteFiles",
   "difficulty": "Beginner",
-  "time": "10 Minutes",
+  "time": "5 Minutes",
   "details": {
     "steps": [
       {
-        "title": "CobiGen Java",
-        "text": "step1.md"
-      },
-      {
-        "title": "Change setup.txt",
-        "text": "step2.md",
+        "title": "Change Test.txt",
+        "text": "step1.md",
         "courseData": "insert.sh"
       }
     ],
@@ -30,10 +26,6 @@
         },
         {
           "file": "setup/insert.sh",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/installCobiGenPlugin.sh",
           "target": "/root/setup"
         },
         {
