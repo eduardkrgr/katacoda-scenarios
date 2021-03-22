@@ -2,7 +2,7 @@ To use the cobigen cli you first have to install the devonfw ide. You will find 
 
 
 Change Directory
-`cd setup/`{{execute T1 } 
+`cd setup/ `{{execute T1 } 
 
 Run bash script.sh with this bash-command. 
 
