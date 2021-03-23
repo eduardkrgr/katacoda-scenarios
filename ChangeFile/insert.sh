@@ -1,3 +1,3 @@
 #!/bin/sh 
   
- sed '5a!##!' test/test/test/Test.txt -i
+ sed '1i!##!' test/test/test/Test.txt -i
