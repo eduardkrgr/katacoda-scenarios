@@ -11,8 +11,8 @@
       {
         "title": "Change Test.txt",
         "text": "step2.md",
-        "courseData": "root/assets/insertScripts/insert.sh",
-        "code": "root/assets/insertScripts/insertForeground.sh"
+        "courseData": "/root/assets/insertScripts/insert.sh",
+        "code": "/root/assets/insertScripts/insertForeground.sh"
       }
     ],
     "intro": {
