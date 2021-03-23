@@ -1,7 +1,7 @@
 {
   "title": "ExecuteFiles",
   "difficulty": "Beginner",
-  "time": "10 Minutes",
+  "time": "15 Minutes",
   "details": {
     "steps": [
       {
@@ -11,6 +11,12 @@
       {
         "title": "Change Test.txt",
         "text": "step2.md",
+        "courseData": "insert_background.sh",
+        "code": "insert_foreground.sh"
+      },
+      {
+        "title": "Change Test.txt",
+        "text": "step3.md",
         "courseData": "insert_background.sh",
         "code": "insert_foreground.sh"
       }
