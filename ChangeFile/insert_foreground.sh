@@ -1,8 +1,3 @@
 #!/bin/bash
 
-if grep -Fxq "!##!" test/test/test/Test.txt
-then
-    echo "Insert Placeholder"
-else
-    sleep 2
-fi
+while [ grep -Fxq "!#Placeholder#!" test/test/test/Test.txt ]; do sleep 1; done
