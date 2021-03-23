@@ -11,6 +11,6 @@ Replace the content in the file as it is shown in the following segment of code.
 
 Click on 'Copy to Editor' to change it automatically.
 
-<pre class="file" data-filename="test/test/test/Test.txt" data-target="insert" data-marker="!##!">
+<pre class="file" data-filename="test/test/test/Test.txt" data-target="insert" data-marker="!#PLACEHOLDER#!">
 INSERTTEXT IN THE OTHER TEXT</pre>
 
