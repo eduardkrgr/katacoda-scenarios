@@ -1,7 +1,7 @@
 {
-  "title": "ExecuteFiles",
+  "title": "Change Files",
   "difficulty": "Beginner",
-  "time": "15 Minutes",
+  "time": "10 Minutes",
   "details": {
     "steps": [
       {
@@ -9,14 +9,8 @@
         "text": "step1.md"
       },
       {
-        "title": "Change Test.txt",
+        "title": "Change test.txt",
         "text": "step2.md",
-        "courseData": "insert_background.sh",
-        "code": "insert_foreground.sh"
-      },
-      {
-        "title": "Change Test.txt",
-        "text": "step3.md",
         "courseData": "insert_background.sh",
         "code": "insert_foreground.sh"
       }
@@ -43,8 +37,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "showide": true
+    "uilayout": "editor-terminal",
+    "showide": false
   },
   "backend": {
     "imageid": "ubuntu:2004"
