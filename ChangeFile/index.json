@@ -1,7 +1,7 @@
 {
   "title": "Change Files",
   "difficulty": "Beginner",
-  "time": "10 Minutes",
+  "time": "20 Minutes",
   "details": {
     "steps": [
       {
@@ -11,8 +11,20 @@
       {
         "title": "Change test.txt",
         "text": "step2.md",
-        "courseData": "insert_background.sh",
-        "code": "insert_foreground.sh"
+        "courseData": "insert_background.sh2.sh",
+        "code": "insert_foreground.sh2.sh"
+      },
+      {
+        "title": "Change test.txt",
+        "text": "step3.md",
+        "courseData": "insert_background.sh3.sh",
+        "code": "insert_foreground.sh3.sh"
+      },
+      {
+        "title": "Change test.txt",
+        "text": "step4.md",
+        "courseData": "insert_background.sh4.sh",
+        "code": "insert_foreground.sh4.sh"
       }
     ],
     "intro": {
