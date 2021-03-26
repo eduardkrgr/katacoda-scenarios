@@ -10,9 +10,7 @@
       },
       {
         "title": "Change test.txt",
-        "text": "step2.md",
-        "courseData": "insert_background.sh2.sh",
-        "code": "insert_foreground.sh2.sh"
+        "text": "step2.md"
       },
       {
         "title": "Change test.txt",
