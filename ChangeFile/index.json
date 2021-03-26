@@ -15,14 +15,14 @@
       {
         "title": "Change test.txt",
         "text": "step3.md",
-        "courseData": "insert_background.sh3.sh",
-        "code": "insert_foreground.sh3.sh"
+        "courseData": "insert_background3.sh",
+        "code": "insert_foreground3.sh"
       },
       {
         "title": "Change test.txt",
         "text": "step4.md",
-        "courseData": "insert_background.sh4.sh",
-        "code": "insert_foreground.sh4.sh"
+        "courseData": "insert_background4.sh",
+        "code": "insert_foreground4.sh"
       }
     ],
     "intro": {
