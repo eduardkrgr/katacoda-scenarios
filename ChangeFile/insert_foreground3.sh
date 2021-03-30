@@ -2,10 +2,8 @@
 FILE="/root/some/Folder/For/test.txt"
 PH="##PLACEHOLDER##"
 INSERTED=$(sed -n 3p $FILE)
-echo $INSERTED
 while [ $INSERTED != $PH ] ;
 do
     sleep 1
-    echo "insertion not completed"
+    INSERTED=$(sed -n 3p $FILE)
 done
-echo "Insertion COmpleted"
