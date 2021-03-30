@@ -1,10 +1,10 @@
 #!/bin/bash
 FILE="/root/some/Folder/For/test.txt"
 PH="PLACEHOLDER"
-INSERTIONWORKED="$(grep -Fx $PH $FILE)"
-echo $INSERTIONWORKED
-while [ $INSERTIONWORKED ] ;
+INSERTIONWORKED=$(sed -n 3p $FILE)
+while [ $INSERTIONWORKED != "$PH" ] ;
 do
-    sleep 2
-    echo "Test" 
+    sleep 1
+    echo "insertion not completed"
 done
+echo "Insertion COmpleted"
