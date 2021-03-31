@@ -3,7 +3,8 @@ Change the File
  
 A script created a placeholder in the background to insert data at a specific line number.
 
-Please close othe file in the Editor if you have it open already.
+Please close the file ''some/Folder/For/test.txt'' in the Editor if you have it open already 
+and you want to use the command below to insert the code automatically.
 
 
 
