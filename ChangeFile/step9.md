@@ -1,9 +1,12 @@
 Change the File
 
+ 
+A script created a placeholder in the background to insert data at a specific line number.
 
-Switch to the IDE and open the file 'devonfw/workspaces/main/some/Folder/For/test.txt'.
-
+Please close othe file in the Editor if you have it open 
+and open it again to see some changes.
 `devonfw/workspaces/main/some/Folder/For/test.txt`{{open}}
+
 
 
 
