@@ -1,9 +1,9 @@
 Change the File
 
+ 
+A script created a placeholder in the background to insert data at a specific line number.
+Please close or reopen the file in the Editor if you have it open already to see some changes.
 
-Switch to the IDE and open the file 'some/Folder/For/test.txt'.
-
-`some/Folder/For/test.txt`{{open}}
 
 
 Replace the content in the file as it is shown in the following segment of code.
