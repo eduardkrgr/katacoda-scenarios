@@ -1,7 +1,7 @@
 {
   "title": "Change Files",
   "difficulty": "Beginner",
-  "time": "45 Minutes",
+  "time": "40 Minutes",
   "details": {
     "steps": [
       {
@@ -39,14 +39,10 @@
         "text": "step7.md"
       },
       {
-        "title": "Install devonfw IDE",
-        "text": "step8.md"
-      },
-      {
         "title": "Change test.txt",
-        "text": "step9.md",
-        "courseData": "insert_background9.sh",
-        "code": "insert_foreground9.sh"
+        "text": "step8.md",
+        "courseData": "insert_background8.sh",
+        "code": "insert_foreground8.sh"
       }
     ],
     "intro": {
@@ -64,10 +60,6 @@
           "target": "/root/setup"
         },
         {
-          "file": "setup/cloneDevonfwIdeSettings.sh",
-          "target": "/root/setup"
-        },
-        {
           "file": "setup/setup.sh",
           "target": "/root/setup"
         }
@@ -75,8 +67,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "showide": true
+    "uilayout": "editor-terminal",
+    "showide": false
   },
   "backend": {
     "imageid": "ubuntu:2004"

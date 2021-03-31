@@ -1,33 +1,20 @@
-Install VSCode
+Change the File
+
+ 
+A script created a placeholder in the background to insert data at a specific line number.
+
+Please close othe file in the Editor if you have it open 
+and open it again to see some changes.
+`some/Folder/For/test.txt`{{open}}
 
 
-## devonfw setup
 
 
-
-Create the directory where the devonfw ide will be installed.
-
-`mkdir devonfw`{{execute T1}}
-
-`cd devonfw`{{execute T1}}
+Replace the content in the file as it is shown in the following segment of code.
 
 
-To install devonfw execute the following commands. More information about setting up your ide on https://devonfw.com/website/pages/docs/devonfw-ide-introduction.asciidoc.html#setup.asciidoc
+Click on 'Copy to Editor' to change it automatically.
 
-First you have do download and extract the installation files.
-
-`wget -c https://bit.ly/2BCkFa9 -O - | tar -xz`{{execute T1}}
-
-Now start the installation process. The tools that are installed within the IDE can be configured in a settings repository. A repository that you can use has already been created by the setup script. It is located in the '/root/devonfw-settings' folder.
-
-`bash setup /root/devonfw-settings/settings.git`{{execute T1}}
-
-The installation process may take a while.
-
-Accept the licence agreements.
-`yes`{{execute T1}}
-
-The devonfw ide is now installed. To use the new 'devon' commands you have the open a new terminal or use the following command:
-
-`. ~/.bashrc`{{execute T1}}
+<pre class="file" data-filename="some/Folder/For/test.txt" data-target="insert" data-marker="##PLACEHOLDER##">
+VSCode Test</pre>
 
