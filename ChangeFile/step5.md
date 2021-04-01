@@ -1,10 +1,12 @@
 Change the File
 
- 
-A script created a placeholder in the background to insert data at a specific line number.
 
-Please close the file ''some/Folder/For/test.txt'' in the Editor if you have it open already 
-and you want to use the command below to insert the code automatically.
+Switch to the IDE and open the file 'devonfw/workspaces/main/some/Folder/For/test.txt'.
+
+`devonfw/workspaces/main/some/Folder/For/test.txt`{{open}}
+
+
+A script created a placeholder in the background to insert data at a specific line number.
 
 
 
@@ -13,6 +15,6 @@ Replace the content in the file as it is shown in the following segment of code.
 
 Click on 'Copy to Editor' to change it automatically.
 
-<pre class="file" data-filename="some/Folder/For/test.txt" data-target="insert" data-marker="##PLACEHOLDER##">
+<pre class="file" data-filename="devonfw/workspaces/main/some/Folder/For/test.txt" data-target="insert" data-marker="##PLACEHOLDER##">
 Text to insert nr.2</pre>
 

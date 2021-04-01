@@ -1,20 +1,20 @@
-Change the File
+Create a File 
 
 
-Switch to the IDE and open the file 'some/Folder/For/test.txt'.
+If the parent directories aren't already in the project, 'mkdir -p' will create them for you. 
 
-`some/Folder/For/test.txt`{{open}}
+`mkdir -p /root/devonfw/workspaces/main/some/Folder/For`{{execute T1}}
 
+Switch to the IDE and click 'Copy to Editor'. 
 
+'test.txt' will be created automatically inside the newly created folder.
 
-Replace the content of the file with the following code.
-
-
-Click on 'Copy to Editor' to change it automatically.
-
-<pre class="file" data-filename="some/Folder/For/test.txt" data-target="replace" data-marker="">
-BBBBBBBBBB
-BBBBBBBBBBBB
-BBBBBBAAAAAABBB
-BBBBBBBBB</pre>
+<pre class="file" data-filename="devonfw/workspaces/main/some/Folder/For/test.txt">
+AAAAAAAAAAAAA
+AAAAAAAAAAAAA
+AAAAAAAAAAAAA
+AAAAAAAAAAAAA
+AAAAAAAAAAAAA
+AAAAAAAAAAAAA
+</pre>
 
