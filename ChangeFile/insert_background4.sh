@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sed '2a##PLACEHOLDER##' some/Folder/For/test.txt -i;
+sed '2a##PLACEHOLDER##' workspaceDirectory\some\Folder\For\test.txt -i;
