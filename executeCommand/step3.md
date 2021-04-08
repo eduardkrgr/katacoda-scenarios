@@ -15,9 +15,7 @@ The maven command 'clean' will clear the target directory beforehand.
 
 
 Change Directory
-`cd Please change the folder to &#39;server&#39;.
-
-`cd server`{{execute T1}} `{{execute T2 }} 
+`cd devonfw\workspaces\main\jump-the-queue\java\jtqj\server `{{execute T2 }} 
 
 Run devon mvn spring-boot:run with this bash-command. 
 
