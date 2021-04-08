@@ -1,9 +1,15 @@
-To use the cobigen cli you first have to install the devonfw ide. You will find more information about devonfw on https://devonfw.com/website/pages/welcome/welcome.html.
+In the next steps we want build and run the Angular Frontend Server. For that you need to install the dependencies first.
 
 
+Please change the folder to &#39;../../angular&#39;.
+
+`cd ../../angular`{{execute T1}}
 
 
-Run bash script.sh with this bash-command. 
+Install the dependencies from the package.json file.
 
-`bash script.sh -v`{{execute T1 }}
+`devon npm install  `{{execute T1}}
+
+
+This may take some time.
 

@@ -1,10 +1,24 @@
-To use the cobigen cli you first have to install the devonfw ide. You will find more information about devonfw on https://devonfw.com/website/pages/welcome/welcome.html.
+
+
+Please change the folder to &#39;jump-the-queue/java/jtqj&#39;.
+
+`cd jump-the-queue/java/jtqj`{{execute T1}}
+ 
+Use the following devon command to build the java project.
+
+`devon mvn clean install`{{execute T1}}
+
+The maven command 'clean' will clear the target directory beforehand. 
+
+
+
 
 
 Change Directory
-`cd setup/ `{{execute T1 }} 
+`cd jump-the-queue/java/jtqj/server `{{execute T2 }} 
 
-Run bash script.sh with this bash-command. 
+Run mvn spring-boot:run with this bash-command. 
 
-`bash script.sh `{{execute T1 }}
+`mvn spring-boot:run `{{execute T2 }}
 
+Now the Java Server should be running.

@@ -1,27 +1,23 @@
 {
-  "title": "ExecuteFiles",
+  "title": "Tutorial for the Jump The Queue Application",
   "difficulty": "Beginner",
-  "time": "30 Minutes",
+  "time": "25 Minutes",
   "details": {
     "steps": [
       {
-        "title": "ExecuteCommand node",
-        "text": "step1.md"
-      },
-      {
-        "title": "ExecuteCommand bash script.sh",
+        "title": "Clones Repository https://github.com/devonfw/jump-the-queue.git",
         "text": "step2.md"
       },
       {
-        "title": "ExecuteCommand bash script.sh",
+        "title": "Build and Run Java Server",
         "text": "step3.md"
       },
       {
-        "title": "ExecuteCommand bash script.sh",
+        "title": "Install the dependencies",
         "text": "step4.md"
       },
       {
-        "title": "ExecuteCommand bash script.sh",
+        "title": "Serve the Frontend Server",
         "text": "step5.md"
       }
     ],
@@ -40,6 +36,14 @@
           "target": "/root/setup"
         },
         {
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/restoreDevonfwIde.sh",
+          "target": "/root/setup"
+        },
+        {
           "file": "setup/setup.sh",
           "target": "/root/setup"
         }
@@ -47,8 +51,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "showide": true
+    "uilayout": "editor-terminal",
+    "showide": false
   },
   "backend": {
     "imageid": "ubuntu:2004"
