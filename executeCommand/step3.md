@@ -1,24 +1,10 @@
 
 
-Please change the folder to &#39;jump-the-queue/java/jtqj&#39;.
+Change directory to the directory where we want to execute the command.
+ With the next command we also open a new Terminal so you have to execute it twice. 
+`cd /root/devonfw/software/node/node_modules/http-server/ `{{execute T2 }} 
 
-`cd jump-the-queue/java/jtqj`{{execute T1}}
- 
-Use the following devon command to build the java project.
+Run http-server -p 9090 with this bash-command. 
 
-`devon mvn clean install`{{execute T1}}
+`http-server -p 9090 `{{execute T2 }}
 
-The maven command 'clean' will clear the target directory beforehand. 
-
-
-
-
-
-Change Directory
-`cd /root/devonfw/workspaces/main/jump-the-queue/java/jtqj/server `{{execute T2 }} 
-
-Run devon mvn spring-boot:run with this bash-command. 
-
-`devon mvn spring-boot:run `{{execute T2 }}
-
-Now the Java Server should be running.

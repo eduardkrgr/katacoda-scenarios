@@ -1,24 +1,16 @@
 {
   "title": "Tutorial for the Jump The Queue Application",
   "difficulty": "Beginner",
-  "time": "25 Minutes",
+  "time": "15 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Clones Repository https://github.com/devonfw/jump-the-queue.git",
+        "title": "ExecuteCommand devon",
         "text": "step2.md"
       },
       {
-        "title": "Build and Run Java Server",
+        "title": "ExecuteCommand http-server -p 9090",
         "text": "step3.md"
-      },
-      {
-        "title": "Install the dependencies",
-        "text": "step4.md"
-      },
-      {
-        "title": "Serve the Frontend Server",
-        "text": "step5.md"
       }
     ],
     "intro": {
