@@ -1,8 +1,8 @@
 
 
+Create the new folder 'something'.
 
+The '-p' parameter ensures, that the whole directory structure is created.
 
-Run npm install -g http-server with this bash-command. 
-
-`npm install -g http-server `{{execute T1 }}
+`mkdir -p something`{{execute T1}}
 

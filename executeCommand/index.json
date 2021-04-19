@@ -5,11 +5,15 @@
   "details": {
     "steps": [
       {
-        "title": "ExecuteCommand npm install -g http-server",
+        "title": "Create a new file",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a new folder",
         "text": "step2.md"
       },
       {
-        "title": "ExecuteCommand http-server -p 9090",
+        "title": "Create a new file",
         "text": "step3.md"
       }
     ],
@@ -25,14 +29,6 @@
       "client": [
         {
           "file": "setup/setup.txt",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/cloneDevonfwIdeSettings.sh",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/restoreDevonfwIde.sh",
           "target": "/root/setup"
         },
         {
