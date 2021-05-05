@@ -12,7 +12,7 @@ Run python3 -m http.server 8001 with this bash-command.
 
 Change directory to the directory where we want to execute the command.
 
-`cd /root/some/Dire `{{execute T2 interrupt}} 
+`cd /root/some/Dire `{{execute T2}} 
 
  python3 -m http.server 8002 is already running in terminal 2. Rerun the command to stop and relaunch it automatically. 
 
