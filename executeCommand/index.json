@@ -1,20 +1,17 @@
 {
   "title": "Tutorial for the Jump The Queue Application",
+  "description": "",
   "difficulty": "Beginner",
-  "time": "15 Minutes",
+  "time": "10 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Create a new file",
+        "title": "ExecuteCommand python3 -m http.server 8001",
+        "text": "step0.md"
+      },
+      {
+        "title": "ExecuteCommand python3 -m http.server 8004",
         "text": "step1.md"
-      },
-      {
-        "title": "Create a new folder",
-        "text": "step2.md"
-      },
-      {
-        "title": "Create a new file",
-        "text": "step3.md"
       }
     ],
     "intro": {
