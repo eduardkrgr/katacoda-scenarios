@@ -2,7 +2,7 @@
   "title": "QueryDsl",
   "description": "",
   "difficulty": "Beginner",
-  "time": "55 Minutes",
+  "time": "50 Minutes",
   "details": {
     "steps": [
       {
@@ -14,32 +14,28 @@
         "text": "step2.md"
       },
       {
-        "title": "Change pom.xml",
-        "text": "step3.md"
-      },
-      {
         "title": "Create a new file",
-        "text": "step5.md"
+        "text": "step4.md"
       },
       {
         "title": "Change FruitRepository.java",
-        "text": "step6.md"
+        "text": "step5.md"
       },
       {
         "title": "Create a new file",
-        "text": "step7.md"
+        "text": "step6.md"
       },
       {
         "title": "Querydsl Expressions",
-        "text": "step8.md"
+        "text": "step7.md"
       },
       {
         "title": "Change FruitResource.java",
-        "text": "step9.md"
+        "text": "step8.md"
       },
       {
         "title": "Executing the command mvn compile quarkus:dev",
-        "text": "step10.md"
+        "text": "step9.md"
       }
     ],
     "intro": {

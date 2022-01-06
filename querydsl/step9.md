@@ -1,17 +1,15 @@
+Now you can run the application in development mode.
 
 
-Switch to the editor and open the file 'devonfw/QueryDslTutorial/src/main/java/org/acme/spring/data/jpa/repo/fruit/FruitResource.java'.
+Please change the folder to &#39;QueryDslTutorial&#39;.
 
-`devonfw/QueryDslTutorial/src/main/java/org/acme/spring/data/jpa/repo/fruit/FruitResource.java`{{open}}
-
-
+`cd QueryDslTutorial`{{execute T1}}
 
 
-Replace the content in the file as it is shown in the following segment of code.
+Run `mvn compile quarkus:dev` with this command.
+`mvn compile quarkus:dev `{{execute T1}} 
 
 
-Click on 'Copy to Editor' to change it automatically.
+Render port 8080: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
-<pre class="file" data-filename="devonfw/QueryDslTutorial/src/main/java/org/acme/spring/data/jpa/repo/fruit/FruitResource.java" data-target="insert" data-marker="return null;">
-return this.fruitRepository.findAllQueryDslName(name)</pre>
 
