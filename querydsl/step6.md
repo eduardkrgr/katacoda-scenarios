@@ -6,9 +6,9 @@ If the parent directories aren't already in the project, 'mkdir -p' will create 
 
 Switch to the editor and click 'Copy to Editor'. 
 
-'FruitFragmentimpl.java' will be created automatically inside the newly created folder.
+'FruitFragmentImpl.java' will be created automatically inside the newly created folder.
 
-<pre class="file" data-filename="devonfw/workspaces/main/QueryDslTutorial/src/main/java/org/acme/spring/data/jpa/repo/fruit/FruitFragmentimpl.java">
+<pre class="file" data-filename="devonfw/workspaces/main/QueryDslTutorial/src/main/java/org/acme/spring/data/jpa/repo/fruit/FruitFragmentImpl.java">
 package org.acme.spring.data.jpa.repo.fruit;
 
 import java.util.ArrayList;

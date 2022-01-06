@@ -10,6 +10,6 @@ Run `mvn compile quarkus:dev` with this command.
 `mvn compile quarkus:dev `{{execute T1}} 
 
 
-Render port 8080: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+Render port 8080: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/name?cherry
 
 
