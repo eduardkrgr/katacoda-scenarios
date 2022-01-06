@@ -23,7 +23,7 @@ public class FruitFragmentImpl implements FruitFragment {
     }
     return query.orderBy(fruit.name.desc()).fetch();
   }
-````
+```
 
 We can also get fruits in a given price range by calling `fruit.price.between(min, max)` in the `where`-clause.
 
@@ -36,7 +36,7 @@ We can also get fruits in a given price range by calling `fruit.price.between(mi
     }
     return query.orderBy(fruit.price.desc()).fetch();
   }
-````
+```
 
 
 
