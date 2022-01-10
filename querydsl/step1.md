@@ -1,5 +1,7 @@
 devonfw IDE has been installed for you.
-
+<pre>
+<interfaceOnly>true</interfaceOnly>
+</pre>
 
 
 Please change the folder to &#39;devonfw/workspaces/main&#39;.
