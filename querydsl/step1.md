@@ -1,7 +1,5 @@
 devonfw IDE has been installed for you.
-----
-<interfaceOnly>true</interfaceOnly>
-----
+
 
 
 Please change the folder to &#39;devonfw/workspaces/main&#39;.
@@ -15,3 +13,7 @@ Now clone the repository to your local directory.
 `git clone https://github.com/EduardKrieger/QueryDslTutorial.git`{{execute T1}}
 
 In next step, you will learn about CobiGen CLI commands.
+
+----
+<interfaceOnly>true</interfaceOnly>
+----
