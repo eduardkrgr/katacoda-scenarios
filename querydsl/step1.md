@@ -18,6 +18,10 @@ In next step, you will learn about CobiGen CLI commands.
 "<interfaceOnly>true</interfaceOnly>"
 ````
 
+&lt;interfaceOnly&gt;true&lt;/interfaceOnly&gt;
+
+<interfaceOnly>true</interfaceOnly>
+
 ‘AT&amp;T’.
 
 Hallo
