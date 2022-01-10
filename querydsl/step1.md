@@ -15,5 +15,5 @@ Now clone the repository to your local directory.
 In next step, you will learn about CobiGen CLI commands.
 
 ```` 
-<interfaceOnly>true</interfaceOnly>
+"<interfaceOnly>true</interfaceOnly>"
 ````
